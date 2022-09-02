@@ -1,5 +1,5 @@
-# FirstAttempt
-First attempt at github
+# C Shell
+
 Interactive Linux shell with the following functionalities-:
 
 This unix type shell will read commands from the user and execute them appropriately. There are two types of commands that can be expected from the user : a user-defined command and a system-command. The following are the specifications for the project. For each of the requirement the appropriate example is given along with it.
