@@ -24,7 +24,7 @@ The following commands must be supported by the shell -pid : prints the process 
 
 E.g., <rushi@iitjammu:~>pid command name: ./a.out process id: 234
 
--pid current : prints the list of the process ids of the processes that are created by the shell and currently active <daksh@iitjammu:~>pid current List of currently executing processes spawned from this shell: command name: emacs process id: 235 command name: xbiff process id: 448 command name: xcalc process id: 459
+-pid current : prints the list of the process ids of the processes that are created by the shell and currently active <rushi@iitjammu:~>pid current List of currently executing processes spawned from this shell: command name: emacs process id: 235 command name: xbiff process id: 448 command name: xcalc process id: 459
 
 -pid all : prints the list of process ids of all commands that were executed so far by the shell (including the currently executing processes)
 
@@ -41,7 +41,7 @@ vi
 ps
 -!HISTN : execute history command number "n" (assuming the first command is numbered 1)
 
-E.g., <daksh@iitjammu:~>!HIST4 (assuming above history of commands) vi
+E.g., <rushi@iitjammu:~>!HIST4 (assuming above history of commands) vi
 
 -!HIST(N1, N2, N3...)
 
